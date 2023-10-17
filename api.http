@@ -1,0 +1,3 @@
+### Basic authorization with variables.
+GET localhost:8080/student
+Authorization: Basic user 9a211574-a179-4dbb-9d32-1fce767881f2
