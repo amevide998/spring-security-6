@@ -1,3 +1,22 @@
 ### Basic authorization with variables.
-GET localhost:8080/api/v1/student
+GET localhost:8080/api/v1/student/2
+Authorization: Basic luffy password
+
+
+###
+
+GET localhost:8080/management/api/v1/student
 Authorization: Basic nami password
+
+###
+POST localhost:8080/management/api/v1/student
+Authorization: Basic nami password
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "sanji"
+}
+
+
+
